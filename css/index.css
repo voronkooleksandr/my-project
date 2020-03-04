@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Odibee+Sans&display=swap');
+
+:root {
+--main-color: black;
+font-family: 'Odibee Sans', cursive;
+}
+
+body {
+    max-width: 650px;
+    margin: auto;
+}
+
+h1, p {
+margin: 5px;
+padding: 5px;
+}
+
+header nav h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 3rem;
+    color: grey;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+header nav .top-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    font-size: 24px;
+    align-items: center;
+}
+
+header nav .top-menu a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--main-color);
+    border: 3px dotted transparent;
+    padding: 5px;
+}
+
+header nav .top-menu a:hover {
+    border: 3px dotted var(--main-color);
+}
+
+@media (min-width: 400px) {
+    header nav {
+        display: flex;
+    }
+
+    header nav .top-menu {
+        flex: 1;
+    }
+
+     .banner {
+         background-image: url(../img/main-mobile.jpg);
+     }
+}
+
+header div {
+    background-image: url(../img/main-desktop.jpg);
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+header .banner .title {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 3rem;
+}
+
+header .banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+    text-decoration: underline;
+}
