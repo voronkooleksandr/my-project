@@ -78,17 +78,12 @@ header .banner {
     color: white;
     text-decoration: underline;
 }
-.product-list {
+.product-cart {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px; 
-}
-
-.product-cart {
-    height: 25%;
-    width: 50%;
 }
 
  footer .footer-menu {
