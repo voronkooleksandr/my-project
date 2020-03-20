@@ -6,8 +6,9 @@ font-family: 'Odibee Sans', cursive;
 }
 
 body {
-    max-width: 650px;
+    max-width: 850px;
     margin: auto;
+    background-color: lightgrey;
 }
 
 h1, p {
