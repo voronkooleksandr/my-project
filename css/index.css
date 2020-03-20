@@ -78,3 +78,9 @@ header .banner {
     color: white;
     text-decoration: underline;
 }
+.product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; 
+}
