@@ -78,6 +78,11 @@ header .banner {
     color: white;
     text-decoration: underline;
 }
+
+.product-cart {
+    height: 100px;
+    width: 50%;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
