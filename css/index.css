@@ -87,6 +87,11 @@ header .banner {
     grid-row-gap: 5px; 
 }
 
+.product-cart {
+    width: 50%;
+    height: 50%;
+}
+
 button {
     background-color: black;
     color: white;
