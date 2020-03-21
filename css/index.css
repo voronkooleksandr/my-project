@@ -101,6 +101,8 @@ header .banner {
     align-items: center;
 }
 
-body .container .product-cart p  {
-    text-align: justify;
+.button {
+    background-color: black;
+    color: white;
+    border: 3px;
 }
