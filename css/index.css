@@ -83,17 +83,17 @@ header .banner {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px; 
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; 
 }
 
 .product-cart {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 200px;
 }
 
 button {
     background-color: black;
     color: white;
-    border: 3px;
+    border: solid 5px;
 }
