@@ -101,7 +101,7 @@ header .banner {
     align-items: center;
 }
 
-.button {
+button {
     background-color: black;
     color: white;
     border: 3px;
