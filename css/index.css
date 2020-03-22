@@ -111,6 +111,7 @@ footer .footer-menu .footer-nav {
     justify-content: space-around;
     padding: 0;
     list-style-type: none;
-    font-size: 24px;
-    align-items: center;
+    font-size: 16px;
+    justify-items: center;
+    
 }
