@@ -12,9 +12,9 @@ body {
 }
 
 h1, p {
-margin: 5px;
-padding: 5px;
-align: justify;
+    margin: 5px;
+    padding: 5px;
+    align: justify;
 }
 
 h2, h3 {
@@ -50,11 +50,11 @@ header nav .top-menu a:hover {
 }
 
 @media (min-width: 400px) {
-    header nav main footer {
+    header nav {
         display: flex;
     }
 
-    header nav main footer {
+    header nav {
         flex: 1;
     }
 
@@ -105,18 +105,16 @@ button {
 
 footer {
     background:grey;
-    color: white;
+    margin: 20px;
 }
 
  .footer-menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    grid-column-gap: 10px;
 }
 
 .footer-nav {
     width: 200px;
-    height: 100%;
+    height: 300px;
 }
