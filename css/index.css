@@ -45,7 +45,7 @@ header nav .top-menu a:hover {
 }
 
 @media (min-width: 400px) {
-    header nav {
+    header nav body .footer-nav .footer-menu {
         display: flex;
     }
 
@@ -87,8 +87,8 @@ header .banner {
 }
 
 .product-cart {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
 }
 
 button {
@@ -97,10 +97,13 @@ button {
     border: solid 3px;
 }
 
-footer .footer-menu {
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
-    list-style-type: none;
-    font-size: 18px;
-    align-items: center;
+.footer-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+}
+
+.footer-nav {
+    width: 200px;
+    height: 100%;
+}
