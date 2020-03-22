@@ -16,6 +16,10 @@ margin: 5px;
 padding: 5px;
 }
 
+h2 h3 {
+    align: center;
+}
+
 header nav h1 {
     font-family: 'Monoton', cursive;
     font-size: 3rem;
@@ -45,11 +49,11 @@ header nav .top-menu a:hover {
 }
 
 @media (min-width: 400px) {
-    header nav body .footer-nav .footer-menu {
+    header nav main footer {
         display: flex;
     }
 
-    header nav .top-menu {
+    header nav main footer {
         flex: 1;
     }
 
@@ -94,7 +98,13 @@ header .banner {
 button {
     background-color: black;
     color: white;
-    border: solid 3px;
+    border: solid 2px;
+    align: center;
+}
+
+footer {
+    background: white;
+    color: black;
 }
 
 .footer-menu {
