@@ -16,8 +16,8 @@ margin: 5px;
 padding: 5px;
 }
 
-h2 h3 {
-    align: center;
+h2, h3 {
+    text-align: center;
 }
 
 header nav h1 {
@@ -99,21 +99,18 @@ button {
     background-color: black;
     color: white;
     border: solid 2px;
-    align: center;
 }
 
 footer {
-    background: white;
-    color: black;
+    background:black;
+    color: white;
 }
 
-.footer-menu {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 5px;
-}
-
-.footer-nav {
-    width: 200px;
-    height: 100%;
+footer .footer-menu .footer-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    font-size: 24px;
+    align-items: center;
 }
