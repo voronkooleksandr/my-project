@@ -82,14 +82,13 @@ header .banner {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
 }
 
 .product-cart {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 200px;
 }
 
 button {
