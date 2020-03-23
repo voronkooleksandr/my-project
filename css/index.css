@@ -16,10 +16,6 @@ h1, p {
     padding: 5px;
 }
 
-h2, h3 {
-    text-align: center;
-}
-
 header nav h1 {
     font-family: 'Monoton', cursive;
     font-size: 3rem;
@@ -54,12 +50,18 @@ header nav .top-menu a:hover {
     }
 
     header nav {
-        flex: 1;
+        display: flex;
     }
 
      .banner {
          background-image: url(../img/main-mobile.jpg);
      }
+}
+@media (min-width: 400px) {
+
+    .container {
+        grid-template-areas: "main main"
+    }
 }
 
 header div {
@@ -87,7 +89,7 @@ header .banner {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 5px;
-    grid-row-gap: 5px; 
+    grid-row-gap: 5px;
 }
 
 .product-cart {
@@ -95,16 +97,18 @@ header .banner {
     height: 50%;
 }
 
+.product-cart {grid-area: main}
+
 button {
     background-color: black;
     color: white;
     border: solid 2px;
-    align: justify;
 }
 
 footer {
     background:grey;
-    margin-top: 20px;
+    margin-top: 5px;
+    width: 300px;
 }
 
  .footer-menu {
@@ -115,5 +119,5 @@ footer {
 
 .footer-nav {
     width: 100%;
-    height: 100px;
+    height: 300px;
 }
